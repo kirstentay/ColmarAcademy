@@ -1,0 +1,400 @@
+html {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+body {
+  background-color: papayawhip;
+  xfont-family: sans-serif;
+  xfont-family: "Play", sans-serif;
+  xfont-family: "Source Code Pro", sans-serif;
+  font-family: "Arsenal", sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  xmargin: 0 auto;
+  width: 100%;
+}
+
+.container60 {
+  xbackground-color: red;
+  width: 60%;
+}
+
+.container40 {
+  xbackground-color: blue;
+  width: 40%;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 3.2rem;
+  width: 100%;
+  padding: .8rem 1.2rem;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+}
+
+.xlogo img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  padding: 0 1.2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1.2rem;
+}
+
+.navmobile {
+  display: none;
+}
+
+li {
+  padding-left: .8rem;
+}
+
+.colmaracademy {
+  font-size: 1.2rem;
+}
+
+.colmar {
+  font-weight: bold;
+}
+
+.academy {
+  color: wheat;
+  font-weight: 400;
+}
+
+.banner {
+  background-color: wheat;
+  display: flex;
+  padding-top: 4.8rem;
+  xpadding: 4.8rem 0;
+}
+
+.bannerimage {
+  padding-left: 1.2rem;
+}
+
+.bannerimage img {
+  max-width: 95%;
+  height: auto;
+  margin: 1.6rem 1.2rem;
+}
+
+.bannertext {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0 1.2rem;
+}
+
+.bannertextelement {
+  padding: 1rem 0;
+}
+
+.bannerbutton {
+  background-color: darkslategrey;
+  width: 80%;
+  margin-top: 1.2rem;
+  xmargin: 1.2rem auto;
+  padding: .4rem 0;
+  text-align: center;
+}
+
+.bannerbutton a {
+  color: white;
+}
+
+.aboutus {
+  display: flex;
+  flex-flow: row;
+  padding: 1.6rem 0;
+}
+
+.practiceimage {
+  display: flex;
+  flex-flow: column;
+  padding-left: 1.2rem;
+}
+
+.practiceimage img {
+  max-width: 95%;
+  height: auto;
+  xmargin: 1.6rem 1.2rem;
+}
+
+.practicetext {
+  margin: 1.6rem 0;
+}
+
+.practicetext p {
+  margin: 1.2rem 0;
+}
+
+.infosection {
+  display: flex;
+  flex-flow: column;
+}
+
+.infoblock {
+  display: flex;
+  padding: .8rem;
+}
+
+.infoimage {
+  height: auto;
+}
+
+.infoimagemobile {
+  display: none;
+}
+
+.infotext {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 7.5rem;
+  padding: 1.2rem;
+}
+
+.infotext a {
+  color: salmon;
+}
+
+.learningtitle {
+  background-color: wheat;
+  text-align: center;
+  padding-top: 1.6rem;
+}
+
+.learning {
+  background-color: wheat;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.6rem 3.6rem;
+}
+
+.learningblock {
+  display: flex;
+  flex-flow: column;
+  max-width: 30%;
+  margin-top: 1.6rem;
+}
+
+.learningimage {
+  background-color: papayawhip;
+  width: 100%;
+  height: auto;
+}
+
+.learningimage img {
+  max-width: 100%;
+}
+
+.learningtext {
+  background-color: papayawhip;
+  min-height: 9.3rem;
+  padding: .8rem 0 1.2rem .8rem;
+}
+
+.learningtext h2 {
+  margin-bottom: .4rem;
+}
+
+.learningtext p {
+  margin-top: .4rem;
+}
+
+.thesistitle{
+  text-align: center;
+  margin: 1.6rem 0;
+}
+
+.thesis {
+  display: flex;
+}
+
+.videosection {
+  display: flex;
+  flex-flow: column;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  margin: 0 1.2rem 1.2rem 1.2rem;
+}
+
+.videotext{
+  margin-left: 1.2rem;
+}
+
+.videotext h2 {
+  margin-top: 1.2rem;
+}
+
+.videotext p {
+  margin-top: .4rem;
+  margin-bottom: 1.6rem;
+}
+
+.moresection {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+}
+
+.thesisbox {
+  display: flex;
+  min-height: 10rem;
+}
+
+#thesisbox1 {
+  background-color: wheat;
+}
+
+.thesisimage {
+  width: 35%;
+  margin: .8rem;
+}
+
+.thesisimage:after {
+  display: block;
+  padding-bottom: 100%;
+}
+
+.thesisinfo {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.dividingline {
+  background-color: wheat;
+  align-content: center;
+  height: 1px;
+  width: 98%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.2rem;
+  padding: .8rem 1.2rem;
+  font-size: .8rem;
+  border-top: 1px solid wheat;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .hideForMobile{
+    display: none;
+  }
+
+  .container60,
+  .container40 {
+    width: 100%;
+    margin: 0;
+  }
+
+  /*I don't love how this is behaving*/
+  .navmobile {
+    display: block;
+    margin: auto;
+    padding: 0;
+  }
+
+  .navmobile ul li {
+    padding: 1rem;
+  }
+
+  .banner,
+  .learning {
+    flex-flow: column;
+    margin: 0;
+  }
+
+  .bannerimage img {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .bannertext {
+    margin-left: .8rem;
+  }
+
+  .bannerbutton{
+    margin: auto;
+  }
+
+  .infoblock {
+    flex-flow: column;
+  }
+
+  .infoimage {
+    display: none;
+  }
+
+  .infoimagemobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .learningblock {
+    max-width: 100%;
+    margin-top: .4rem;
+  }
+
+  .learningtext {
+    background-color: papayawhip;
+    min-height: 0;
+  }
+
+
+}
