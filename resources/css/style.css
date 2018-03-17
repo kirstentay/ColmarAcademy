@@ -4,10 +4,8 @@ html {
 }
 
 body {
-  background-color: papayawhip;
-  xfont-family: sans-serif;
-  xfont-family: "Play", sans-serif;
-  xfont-family: "Source Code Pro", sans-serif;
+  background-color: #FFD1AA;
+  color: #0D4D4D;
   font-family: "Arsenal", sans-serif;
   line-height: 1.4;
   margin: 0 auto;
@@ -29,8 +27,9 @@ h3 {
 }
 
 h4 {
+  color: #003333;
   font-size: .8rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 p {
@@ -39,22 +38,19 @@ p {
 }
 
 .container {
-  xmargin: 0 auto;
   width: 100%;
 }
 
 .container60 {
-  xbackground-color: red;
   width: 60%;
 }
 
 .container40 {
-  xbackground-color: blue;
   width: 40%;
 }
 
 header {
-  background-color: white;
+  background-color: #FFD1AA;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,13 +62,12 @@ header {
   margin: 0;
 }
 
-.logo {
-  display: flex;
+header a {
+  color: #003333;
 }
 
-.xlogo img {
-  width: 100%;
-  height: auto;
+.logo {
+  display: flex;
 }
 
 nav {
@@ -98,19 +93,19 @@ li {
 }
 
 .colmar {
+  color: #003333;
   font-weight: bold;
 }
 
 .academy {
-  color: wheat;
+  color: #D49A6A;
   font-weight: 400;
 }
 
 .banner {
-  background-color: wheat;
+  background-color: #669999;
   display: flex;
   padding-top: 4.8rem;
-  xpadding: 4.8rem 0;
 }
 
 .bannerimage {
@@ -135,16 +130,15 @@ li {
 }
 
 .bannerbutton {
-  background-color: darkslategrey;
+  background-color: #003333;
   width: 80%;
   margin-top: 1.2rem;
-  xmargin: 1.2rem auto;
   padding: .4rem 0;
   text-align: center;
 }
 
 .bannerbutton a {
-  color: white;
+  color: #D49A6A;
 }
 
 .aboutus {
@@ -162,7 +156,6 @@ li {
 .practiceimage img {
   max-width: 95%;
   height: auto;
-  xmargin: 1.6rem 1.2rem;
 }
 
 .practicetext {
@@ -200,17 +193,23 @@ li {
 }
 
 .infotext a {
-  color: salmon;
+  color: #552600;
+}
+
+#infoblock3 {
+  background-color: #669999;
+  color: #003333;
 }
 
 .learningtitle {
-  background-color: wheat;
+  background-color: #407F7F;
+  color: #003333;
   text-align: center;
   padding-top: 1.6rem;
 }
 
 .learning {
-  background-color: wheat;
+  background-color: #407F7F;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -225,7 +224,7 @@ li {
 }
 
 .learningimage {
-  background-color: papayawhip;
+  background-color: #804515;
   width: 100%;
   height: auto;
 }
@@ -235,7 +234,8 @@ li {
 }
 
 .learningtext {
-  background-color: papayawhip;
+  background-color: #804515;
+  color: #FFD1AA;
   min-height: 9.3rem;
   padding: .8rem 0 1.2rem .8rem;
 }
@@ -265,7 +265,7 @@ li {
 video {
   max-width: 100%;
   height: auto;
-  margin: 0 1.2rem 1.2rem 1.2rem;
+  margin: 0 1.2rem;
 }
 
 .videotext{
@@ -284,7 +284,6 @@ video {
 .moresection {
   display: flex;
   flex-flow: column;
-  width: 40%;
 }
 
 .thesisbox {
@@ -293,7 +292,8 @@ video {
 }
 
 #thesisbox1 {
-  background-color: wheat;
+  background-color: #669999;
+  color: #003333;
 }
 
 .thesisimage {
@@ -301,20 +301,14 @@ video {
   margin: .8rem;
 }
 
-.thesisimage:after {
-  display: block;
-  padding-bottom: 100%;
-}
-
 .thesisinfo {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 65%;
 }
 
 .dividingline {
-  background-color: wheat;
+  background-color: #669999;
   align-content: center;
   height: 1px;
   width: 98%;
@@ -327,7 +321,7 @@ footer {
   height: 3.2rem;
   padding: .8rem 1.2rem;
   font-size: .8rem;
-  border-top: 1px solid wheat;
+  border-top: 1px solid #552600;
 }
 
 @media only screen and (max-width: 640px) {
@@ -342,7 +336,6 @@ footer {
     margin: 0;
   }
 
-  /*I don't love how this is behaving*/
   .navmobile {
     display: block;
     margin: auto;
@@ -359,16 +352,24 @@ footer {
     margin: 0;
   }
 
+  .bannerimage {
+    padding: 0;
+  }
+
   .bannerimage img {
     max-width: 100%;
     margin: 0;
   }
 
   .bannertext {
+    margin-bottom: 1.6rem;
+  }
+
+  .bannertextelement {
     margin-left: .8rem;
   }
 
-  .bannerbutton{
+  .bannerbutton {
     margin: auto;
   }
 
@@ -392,9 +393,12 @@ footer {
   }
 
   .learningtext {
-    background-color: papayawhip;
+    background-color: #804515;
     min-height: 0;
   }
 
+  video {
+    margin: 0;
+  }
 
 }
