@@ -33,7 +33,7 @@ h4 {
 }
 
 p {
-  font-family: "Arsenal", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
@@ -94,7 +94,7 @@ li {
 
 .colmar {
   color: #003333;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .academy {
@@ -297,7 +297,7 @@ video {
 }
 
 .thesisimage {
-  width: 35%;
+  height: auto;
   margin: .8rem;
 }
 
